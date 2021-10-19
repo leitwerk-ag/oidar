@@ -20,6 +20,7 @@ reverse internet radio (only works, when internet is down)
 - ping targets
   - 9.9.9.9
   - etc.
+- retrieve content via http [maybe like this](https://www.kite.com/python/answers/how-to-check-internet-connection-in-python)
 - etc.?
 
 ## Monitoring concept
