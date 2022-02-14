@@ -2,6 +2,24 @@
 
 reverse internet radio (only works, when internet is down)
 
+## Requirements
+- Python3
+- Python lib pygame
+- audio setup
+- mp3 audio file(s) in subdir ./audio
+
+## Installation
+- pip3 install pygame
+
+## Usage
+- edit oidar.py and adjust:
+  - list of ```critical_hosts```
+  - adjust ```tolerance``` if needed to allow for one or more failing hosts without raising the alarm
+- chmod 755 oidar.py
+- test:
+  - ./oidar.py
+- add oidar.py to cron
+
 ## Hardware setup
 - Raspberry Pi
 - LAN connection
